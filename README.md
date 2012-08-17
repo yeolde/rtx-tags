@@ -4,10 +4,12 @@ rtx-tags
 Fork of http://search.cpan.org/~jpierce/RTx-Tags-0.25/
 
 NAME
+
     RTx::Tags - Tag Cloud support for RT with simple-searchable custom
     fields.
 
 DESCRIPTION
+
     This module uses portions of HTML::TagCloud to provide a tag cloud on
     Search/Simple.html The cloud consists of the values (split on commas,
     semi-colons and whitespace) for all objects with the `Tags' custom
@@ -18,6 +20,7 @@ DESCRIPTION
     feature is also shown on Search/Simple.html
 
 INSTALL
+
     #   Install HTML::TagCloud
 
     #   Install this module i.e; extract to local/plugins/RTx-Tags & amend
@@ -44,6 +47,7 @@ INSTALL
         Search page.
 
 CAVEATS
+
     *   Due to limitations in the available callbacks, the CF search blurb
         and tags cloud are output before the core search mechanism blurbs on
         Simple Search; postform is ugly.
@@ -58,5 +62,6 @@ CAVEATS
         Googleish_Vendor.pm
 
 LICENSE
+
     The same terms as perl itself.
 
